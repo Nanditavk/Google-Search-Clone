@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(81, 84, 87);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: medium;
+  color: black;
+  padding-right: 15px;
+}
+.nava1 {
+  padding-right: 15px;
+}
+.nava2 {
+  padding-right: 15px;
+}
+.signin {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: rgb(5, 132, 242);
+  color: azure;
+  font-size: medium;
+}
+.searchengine {
+  height: 82vh;
+}
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgg {
+  width: 20%;
+}
+
+#searchForm {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.langMain {
+  display: flex;
+  justify-content: center;
+}
+
+.LangOffered {
+  display: inline-flex;
+  align-content: center;
+  padding: 20px;
+  color: #4d5156;
+  font-size: 0.85em;
+}
+
+.LangOffered span {
+  padding-right: 10px;
+}
+
+.LangOffered a {
+  color: black;
+  padding-right: 10px;
+}
+
+.signIn1 {
+  flex: 1 1;
+  display: flex;
+  padding: 7px;
+  border: 1px solid #dfe1e5;
+  width: 40vw;
+  border-radius: 20px;
+  font-size: small;
+  outline: none;
+  padding-left: 15px;
+}
+
+.signIn1:hover {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.input {
+  width: 40vh;
+  padding: 1vh;
+  flex: 1;
+  font-size: 15px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+.scrhBtn {
+  padding-top: 1em;
+}
+
+.scrhBtn button {
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 0.5em;
+  border-radius: 7px;
+  background-color: #f8f9fa;
+  font-size: 14px;
+}
+
+.scrhBtn button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.footer1 {
+  margin-top: 0.5em;
+  background-color: #f8f9fa;
+}
+.footer1 p {
+  margin: 15px 15px 10px 10px;
+  justify-content: center;
+}
+.asFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.asFooter li {
+  list-style: none;
+  font-size: small;
+  color: black;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
